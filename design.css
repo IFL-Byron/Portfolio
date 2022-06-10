@@ -239,11 +239,12 @@ li:hover
     margin-right: 4%;
 }
 
-
-
-
-
-
+/* .carousel_size img
+    {
+        height: 500px;
+        width: 100%;
+        object-fit: contain;
+    } */
 
 
 
@@ -744,13 +745,10 @@ li:hover
 
     .carousel_size img
     {
-        height: 500px;
+        height: 550px;
         width: 100%;
         object-fit: contain;
     }
-
-
-
 }
 
 
