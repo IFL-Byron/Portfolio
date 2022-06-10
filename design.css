@@ -1,0 +1,768 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: rgb(24, 24, 24);
+}
+
+/* ...................Navigation......................*/
+header
+{
+    background-color: rgb(24, 24, 24);
+}
+
+.home
+{
+    background-color: aqua;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.home:hover
+{
+    background-color: white;
+}
+
+li
+{
+    margin-right: 10px;
+    padding: 5px;
+}
+
+li a b
+{
+    font-size: 13px;
+}
+
+
+li:hover
+{
+    background-color: darkcyan;
+    border-radius: 6px;
+    color: black;
+}
+
+.search button
+{
+    background-color: aqua;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    border-radius:6px;
+    border: none;
+}
+
+.search button:hover
+{
+    background-color: white;
+}
+
+
+
+/* ............Header top............ */
+
+.motherhead 
+    {
+        padding-top: 65px;
+    }
+
+.contain
+{
+    height: 480px;
+    width: 100%;
+}
+
+.bghead_img
+{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.829) 100%, rgba(0 0 0 / 60)100%,rgba(0, 0, 0, 0.781) 100%), url(/Images/Codeback.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_content
+{
+    padding: 5px;
+    margin: 0 10px 0 10px;
+}
+
+.header_content h6
+{
+    font-size: 15px;
+}
+
+.header_content h2
+{
+    margin-top: -5px;
+    font-size: 40px;
+    font-family:'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.header_content h2 span
+{
+    color: aqua;
+}
+
+.header_content p
+{
+    font-size: 16px;
+    font-family:'Inter', sans-serif;
+    margin-top: 5px;
+}
+
+.btn_AboutMe
+{
+    background-color: aqua;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 20px 7px 20px;
+    font-size: 13px;
+    color: black;
+}
+
+.btn_AboutMe:hover
+{
+    background-color: white;
+}
+
+.headicons a i
+{
+    color: aqua;
+}
+
+.headicons a i:hover
+{
+    color: white;
+}
+
+
+/* ..........Lower Container......... */
+.lowercontain
+{
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 12px;
+    width: 60%;
+}
+
+.content {
+    margin-top: -50px;
+    z-index: 99;
+}
+
+/*.......... Services........... */
+
+.services
+{
+    margin-bottom: 20px;
+}
+
+.services .txtservices
+{
+    color: aqua;
+}
+
+.services .services_content p
+{
+    font-size: 15px;
+    margin: 0 80px 0 80px;
+    color: white;
+} 
+
+/* ...........Who am i Section............ */
+
+/* ............Content #1........... */
+
+.me_content1
+{
+    margin-bottom: 10px;
+}
+
+.me_content1 h1
+{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+.me_content1 h6
+{
+    color: aqua;
+    font-size: 15px;
+}
+
+.me_icons
+{
+    margin-left: 20px;
+}
+
+.me_icons i
+{
+    margin: -5px;
+    font-size: 40px;
+}
+
+
+/* ............Content #2........... */
+
+.me_content2 p
+{
+    color: white;
+    font-size: 15px;
+}
+
+
+/* ..................My Work............... */
+
+.my_work
+{
+    background-color: rgb(20, 20, 20);
+    padding: 0px 30px 20px 30px;
+}
+
+.work_top_description .sub_title
+{
+    padding-top: 40px;
+    font-size: 15px;
+    color: aqua;
+}
+
+.work_top_description p
+{
+    font-size: 17px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+/* --Media Query-- */
+
+@media only screen and (max-device-width: 360px) {
+    /* styles for mobile browsers smaller than 360px; */
+
+
+    /* ..........Header Top........... */
+    .header_content h6
+    {
+        font-size: 15px;
+    }
+
+    .header_content h2
+    {
+        font-size: 20px;
+    }
+
+    .header_content p
+    {
+        font-size: 10px;
+    }
+
+    /*.......... Services........... */
+
+    .services .services_content p
+    {
+        font-size: 15px;
+        margin: 0 20px 0 20px;
+    } 
+
+    .me_content2 p
+    {
+        color: white;
+        font-size: 10px;
+    }
+
+    .me_content1 h1
+    {
+        font-size: 30px;
+    }
+
+    .me_content2 p
+    {
+        color: white;
+        font-size: 20px;
+    }
+    
+ }
+
+ @media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; */
+
+
+     /* ..........Header Top........... */
+     .header_content h6
+     {
+         font-size: 15px;
+     }
+ 
+     .header_content h2
+     {
+         font-size: 20px;
+     }
+ 
+     .header_content p
+     {
+         font-size: 10px;
+     }
+
+     /*.......... Services........... */
+
+     .services .services_content p
+     {
+         font-size: 15px;
+         margin: 0 40px 0 40px;
+     }
+
+      /* ...........Who am i Section............ */
+
+    /* ............Content #1........... */
+
+
+    .me_content1 h6
+    {
+        font-size: 15px;
+    }
+
+    .me_content1 h1
+    {
+        font-size: 30px;
+    }
+
+    .me_icons
+    {
+        margin-left: 20px;
+    }
+
+    .me_icons i
+    {
+        margin: -5px;
+        font-size: 50px;
+    }
+
+
+    /* ............Content #2........... */
+
+    .me_content2 p
+    {
+        color: white;
+        font-size: 15px;
+    }
+
+    /* ..................My Work............... */
+
+    .work_top_description p
+    {
+        font-size: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /* ..................My Work............... */
+
+    .my_work
+    {
+        padding: 0px 30px 20px 30px;
+    }
+
+    .work_top_description .sub_title
+    {
+        padding-top: 40px;
+        font-size: 15px;
+    }
+
+    .work_top_description p
+    {
+        font-size: 15px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+   
+ }
+ 
+ @media only screen and (device-width: 768px) {
+    /* default tablet and iPad screens */
+    /* 768 X 752 */
+
+    
+    /* ..........Header Top........... */
+    .motherhead 
+    {
+        padding-top: 50px;
+    }
+
+    .header_content
+    {
+        padding: 30px;
+    }
+    .header_content h6
+    {
+        font-size: 15px;
+    }
+
+    .header_content h2
+    {
+        font-size: 30px;
+    }
+
+    .header_content p
+    {
+        font-size: 15px;
+    }
+
+     /*.......... Services........... */
+
+     .services .services_content p
+     {
+         font-size: 16px;
+         margin: 0 40px 0 40px;
+     } 
+
+    /* ...........Who am i Section............ */
+
+    /* ............Content #1........... */
+
+
+    .me_content1 h1
+    {
+        font-size: 20px;
+    }
+
+    .me_content1 h6
+    {
+        font-size: 10px;
+    }
+
+    .me_icons
+    {
+        margin-left: 20px;
+    }
+
+    .me_icons i
+    {
+        margin: -5px;
+        font-size: 35px;
+    }
+
+
+    /* ............Content #2........... */
+
+    .me_content2 p
+    {
+        color: white;
+        font-size: 13px;
+        margin-right: 18px;
+    }
+
+    /* ..................My Work............... */
+
+    .my_work
+    {
+        padding: 0px 30px 20px 30px;
+    }
+
+    .work_top_description .sub_title
+    {
+        padding-top: 40px;
+        font-size: 15px;
+    }
+
+    .work_top_description p
+    {
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+ }
+
+ @media only screen and (max-device-width: 956px) {
+
+    /* ...........Who am i Section............ */
+
+    /* ............Content #1........... */
+
+
+    .me_content1 h6
+    {
+        font-size: 13px;
+    }
+
+    .me_content1 h1
+    {
+        font-size: 20px;
+    }
+
+    .me_icons
+    {
+        margin-left: 20px;
+    }
+
+    .me_icons i
+    {
+        margin: -5px;
+        font-size: 35px;
+    }
+
+    .me_content2 p
+    {
+        color: white;
+        font-size: 15px;
+    }
+ }
+
+ @media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    /* 1024 x 762 */
+    
+    
+   /* ..........Header Top........... */
+   .motherhead 
+   {
+       padding-top: 50px;
+   }
+   .header_content
+   {
+       padding: none;
+   }
+    .header_content h6
+   {
+       font-size: 15px;
+   }
+
+   .header_content h2
+   {
+       font-size: 50px;
+   }
+
+   .header_content p
+   {
+       font-size: 15px;
+   }
+
+   .me_icons
+    {
+        margin-left: 20px;
+    }
+
+    .me_icons i
+    {
+        margin: -5px;
+        font-size: 40px;
+    }
+   
+   /*.......... Services........... */
+
+   .services .services_content p
+   {
+       font-size: 18px;
+       margin: 0 90px 0 90px;
+   } 
+   
+    /* ...........Who am i Section............ */
+
+    /* ............Content #1........... */
+
+
+    .me_content1 h6
+    {
+        font-size: 13px;
+    }
+
+    .me_content1 h1
+    {
+        font-size: 23px;
+    }
+
+    .me_icons
+    {
+        margin-left: 20px;
+    }
+
+    .me_icons i
+    {
+        margin: -5px;
+        font-size: 50px;
+    }
+
+
+    /* ............Content #2........... */
+
+    .me_content2 p
+    {
+        color: white;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+     /* ..................My Work............... */
+
+     .my_work
+     {
+         padding: 0px 30px 20px 30px;
+     }
+ 
+     .work_top_description .sub_title
+     {
+         padding-top: 40px;
+         font-size: 15px;
+     }
+ 
+     .work_top_description h2
+     {
+         margin-top: -2px;
+     }
+ 
+     .work_top_description p
+     {
+         font-size: 17px;
+         margin-left: 7%;
+         margin-right: 7%;
+     }
+
+
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    /* styles for browsers larger than 1200px; */
+    
+   
+    /* ..........Header Top........... */
+   .headcontain
+   {
+       height: 480px;
+       width: 100%;
+   }
+    .motherhead 
+   {
+       padding-top: 65px;
+   }
+   .header_content
+   {
+       padding: 5px;
+       margin: -10px 20px 0 10px;
+   }
+   .header_content h6
+   {
+       font-size: 18px;
+   }
+
+   .header_content h2
+   {
+       font-size: 50px;
+       margin-bottom: 15px;
+   }
+
+   .header_content p
+   {
+       font-size: 18px;
+   }
+
+   /*.......... Services........... */
+
+   .services .services_content p
+   {
+       font-size: 18px;
+       margin: 0 80px 0 80px;
+   } 
+
+   /* ...........Who am i Section............ */
+
+    /* ............Content #1........... */
+
+
+    .me_content1 h1
+    {
+        color: white;
+        font-weight: 700;
+        margin-top: -5px;
+        font-size: 40px;
+    }
+
+    .me_content1 h6
+    {
+        font-size: 20px;
+    }
+
+    .me_icons
+    {
+        margin-left: 20px;
+    }
+
+    .me_icons i
+    {
+        margin: -5px;
+        font-size: 70px;
+    }
+
+
+    /* ............Content #2........... */
+
+    .me_content2 p
+    {
+        color: white;
+        font-size: 20px;
+    }
+
+    /* ..................My Work............... */
+
+    .my_work
+    {
+        padding: 0px 30px 30px 30px;
+    }
+
+    .work_top_description .sub_title
+    {
+        padding-top: 40px;
+        font-size: 15px;
+    }
+
+    .work_top_description h2
+    {
+        margin-top: -2px;
+    }
+
+    .work_top_description p
+    {
+        font-size: 17px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    .carousel_size img
+    {
+        height: 400px;
+        width: 600px;
+    }
+
+}
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+    
+ 
