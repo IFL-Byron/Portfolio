@@ -744,8 +744,8 @@ li:hover
 
     .carousel_size img
     {
-        height: 400px;
-        width: 600px;
+        height: 700px;
+        width: 100%;
     }
 
 }
